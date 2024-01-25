@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Agency</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+    <style>
+        body {
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+        #name p {
+            font-size: 30px;
+            font-family: 'Kanit', sans-serif;
+            font-style: italic;
+            color: #e9c46a;
+            margin-bottom: 20px;
+        }
+
+        #Title p {
+            width: 600px;
+            font-size: 60px;
+            font-family: 'Kanit', sans-serif;
+            margin: 40px;
+            
+        }
+        
+        span {
+            color: #000a99;
+        }
+        .content {
+            font-family: 'Kanit', sans-serif;
+            display: inline-block;
+            width: 500px;
+        }
+        /* .content p {
+            position: relative; top: px;
+        } */
+        img {
+            width: 250px;
+            float: left;
+            padding: 20px;
+        }
+        #beauty {
+            float: left;
+        }
+        #construct {
+            float: right;
+        }
+        footer{
+            clear: both;
+            text-align: right;
+            padding: 1em;
+            position: sticky;
+            bottom: 0;
+        }
+
+        @media (max-width: 480px){
+            body{
+                padding: 10px;
+                
+            }
+            #Title p {
+                
+                text-align: center;
+                width: 80%;
+                font-size: 50px;
+            }
+            .content {
+                /* position: relative; */
+                display: block;
+                width: 100%;
+            }
+            #beauty {
+                float: none;
+            }
+            #construct {
+                float: none;
+            }
+            img {
+                width: 100%;
+                padding: 0px;
+                float: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="name">
+        <p>gamma.com</p>
+    </div>
+    <div id="Title">
+        <p>We are a <span>Creative</span> Design Agency</p>
+    </div>
+    <div class="content" id="beauty">
+        <img src="assets\pexels-james-wheeler-417074.jpg">
+        <p>
+            <h4>Beauty</h4>
+            We strive to create the most beautiful websites for all your needs. Workig closely with you to design and develop an amazing website for your business.</p>
+        </p>
+    </div>
+    <div class="content" id="construct">
+        <img src = "assets\pexels-laura-tancredi-7078525.jpg">
+        <p><h4>Construction</h4>
+            Built by our team of professional developers, we ensure the most rigorous and modern websites. Built from scratch using HTML and CSS. Only the best for you.</p>
+        </p>
+    </div>
+    <footer>Create.Develop.Design</footer>
+</body>
+</html>
